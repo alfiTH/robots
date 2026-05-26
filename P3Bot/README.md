@@ -58,7 +58,7 @@ The runtime configuration for P3Bot is managed through the CORTEX framework. All
 - Controlled via the **[SVD48V Motor Controller](https://github.com/robocomp/robocomp-shadow/tree/main/components/SVD48VBase)**
 
 ### Robotic Arms
-- **Dual Kinova Gen3 7-DOF arms** with 140mm parallel grippers
+- **Dual Kinova Gen3 7-DOF arms** with 85mm parallel grippers
 - Driver: [kinova_controller_cpp](https://github.com/robocomp/manipulation_kinova_gen3/tree/P3Bot/agents/kinova_controller_cpp)
 
 ### Sensors
@@ -68,6 +68,8 @@ The runtime configuration for P3Bot is managed through the CORTEX framework. All
 | 360° Camera | Ricoh Theta Z1 | [ricoh_omni](https://github.com/robocomp/robocomp-robolab/tree/master/components/hardware/camera/ricoh_omni) |
 | Stereo Depth Camera | ZED 2i | [zed_component](https://github.com/robocomp/robocomp-shadow/tree/main/insect/zed_component) |
 | 3D LiDAR | RoboSense Helios | [lidar3D](https://github.com/robocomp/robocomp-robolab/tree/master/components/hardware/laser/lidar3D) |
+| IMU | Phidgets M0T0110_0 | []() |
+| Power sensor | INA226 | [INA226](https://github.com/alfiTH/EBO_V2/tree/main/components/INA226) |
 
 #### Point Cloud Processing
 Raw LiDAR data can be filtered, downsampled, and preprocessed using the **[lidar3DFilter](https://github.com/robocomp/robocomp-robolab/tree/master/components/hardware/laser/lidar3DFilter)** component.

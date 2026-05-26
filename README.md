@@ -42,7 +42,7 @@ Each platform has dedicated documentation covering hardware specifications, cont
     Omnidirectional drive base with dual Kinova Gen3 arms. Includes motor controller integration, LiDAR filtering, VR arm control, and full-body coordination.
 
 - **[Kinova Gen3 7-DOF Arm](KinovaGen3/README.md)**  
-    Detailed guide for the 7-DOF manipulator with custom 140mm parallel gripper. Covers kinematic modeling, sensor integration, and VR/teleoperation control modes.
+    Detailed guide for the 7-DOF manipulator with custom 85mm parallel gripper. Covers kinematic modeling, sensor integration, and VR/teleoperation control modes.
 
 ---
 
