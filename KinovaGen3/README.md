@@ -64,7 +64,7 @@ The runtime configuration for the Kinova Gen3 arm is managed through the CORTEX 
 
 | Sensor Type | Model | RoboComp Component |
 |-------------|-------|-------------------|
-| Stereo Depth Camera | Intel RealSense D435i | [zed_component](https://github.com/robocomp/robocomp-shadow/tree/main/insect/zed_component) |
+| Stereo Depth Camera | Camera Kinova | [camera_kinova_cpp](https://github.com/robocomp/manipulation_kinova_gen3/tree/P3Bot/components/camera_kinova_cpp) |
 
 ### Control Systems
 
